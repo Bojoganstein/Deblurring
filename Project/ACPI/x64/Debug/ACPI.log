@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ACPI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AbstractViewer.cpp
+  HistogramViewer.cpp
+  ImageGrid.cpp
+  ImageGridCell.cpp
+  ImageViewer.cpp
+  main.cpp
+  Tools.cpp
+  Generating Code...
+  ACPI.vcxproj -> F:\Materii\anul3\PIM\proiect\Project\Project\x64\Debug\Project_PIM.exe
