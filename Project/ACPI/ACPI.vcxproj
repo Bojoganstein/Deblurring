@@ -176,14 +176,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractViewer.h" />
+    <ClInclude Include="Complex.h" />
     <ClInclude Include="Filter.h" />
-    <ClInclude Include="FourierTransform.h" />
+    <ClInclude Include="Fourier.h" />
     <ClInclude Include="HistogramViewer.h" />
     <ClInclude Include="ImageGridCell.h" />
     <ClInclude Include="ImageViewer.h" />
-    <ClInclude Include="operatii.h" />
     <ClInclude Include="PITimer.h" />
     <ClInclude Include="Tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="motion_blur_kernel9x9.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -50,9 +50,6 @@
     <ClInclude Include="PITimer.h">
       <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="operatii.h">
-      <Filter>student</Filter>
-    </ClInclude>
     <ClInclude Include="HistogramViewer.h">
       <Filter>core</Filter>
     </ClInclude>
@@ -62,8 +59,16 @@
     <ClInclude Include="Filter.h">
       <Filter>student</Filter>
     </ClInclude>
-    <ClInclude Include="FourierTransform.h">
+    <ClInclude Include="Fourier.h">
       <Filter>student</Filter>
     </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>student</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="motion_blur_kernel9x9.txt">
+      <Filter>student</Filter>
+    </Text>
   </ItemGroup>
 </Project>
