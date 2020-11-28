@@ -70,5 +70,8 @@
     <Text Include="motion_blur_kernel9x9.txt">
       <Filter>student</Filter>
     </Text>
+    <Text Include="blur_filter.txt">
+      <Filter>student</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -30,7 +30,7 @@ public:
 		}
 		else 
 		{
-			my_file >> heigth >> width;
+			my_file >> width >> heigth;
 			kernel = new double*[heigth];
 			for (int i = 0;i < heigth;i++)
 				kernel[i] = new double[width];
@@ -43,6 +43,7 @@ public:
 			}
 		}
 		my_file.close();
+
 	}
 
 	void printKernel()
